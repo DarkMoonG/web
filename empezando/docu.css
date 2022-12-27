@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* estilo del layout , cabecera*/
+header{
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+}
+/*  esta la barra de navegacion: 
+nav{
+    display:flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+nav a{
+    padding: 20px;
+    flex-direction: ce ;
+    text-decoration: none;
+} */
+/* columna de navegacion*/
+.row{
+   
+    
+    background-color: aqua;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+  
+    flex-direction: column;
+    padding: 20px;
+    
+   
+    height: 100vh;
+  
+}
+/* centrado de la pagina */
+section, p{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    
+    /* height: 100vh;
+    padding: 30px; */
+    
+   
+    /* padding:20px; */
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table ,th ,td{
+            border: 2px solid black;
+            border-collapse:collapse ;
+        }
+    </style>
+</head>
+<body>
+<!--menu-->
+    <ul>
+        <li>
+            <a href="comenzando.html" target="iframe_mi">INICIO</a>
+
+
+        </li>
+        <li>
+            <a href="Form.html" target="iframe_mi">Formulario</a>
+        </li>
+        <li>
+            <a href="galeria.html" target="iframe_mi">galeria</a>
+        </li>
+    </ul>
+    <!-- <iframe name="iframe_mi" src="comenzando.html"style=" width=100%; height=800px; border:none;"></iframe> -->
+<!--Formulario-->
+    <form>
+        <!-- inputs para funciones del formulario como email , correo etc-->
+        <fieldset>
+            <legend>Form</legend>
+            <br>
+        <label>Usuario</label>
+        <input type="text">
+        <br><br>
+        <label>email</label>
+        <input type="email">
+        <br><br>
+        <label>Contra</label>
+        <input type="password">
+        <br><br>
+        <input type="radio" id="sexo" value="masculi" name="genero">
+        <label for="sexo">masculino</label>
+        <input type="radio" id="fem" value="femeni" name="genero">
+        <label for="fem">Femenino</label>
+        <br><br>
+        <label>telefono</label>
+        <input type="tel" name="phone">
+        <h3>adjunta una foto</h3>
+        <input type="file" name="archivo" id="fil">
+        <br><br>
+        <input type="date" name="date">
+        <label>Selecciona los textos que quisieras leer</label>
+        <select>
+            <option>...</option>
+            <option>textos biblicos</option>
+            <option>textos de autores dominicanos</option>
+
+        </select><br><br>
+        
+
+        <h2> colocar un comentario</h2>
+
+
+        <textarea></textarea><br><br>
+        <input type="submit">
+        <input type="reset" value="borrar">
+    </fieldset>
+    </form>
+    <hr>
+    <br>
+    <h4>Registro de usuario</h4>
+    <!--tablas-->
+    <table>
+        <tr>
+            <th>Usuarios</th>
+            <th>email</th>
+            <th>Libros seleccionados</th>
+        </tr>
+        <tr>
+            <td>Amelia</td>
+            <td>ameliar@gmail.com</td>
+            <td>textos biblicos</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

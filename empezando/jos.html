@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #000;
+}
+
+.formulario .input-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.formulario input {
+  border: 1px solid #CCC;
+  padding: 5px;
+}
+        </style>
+    <form action="#" class="formulario" autocomplete="off">
+        
+        <div class="input-info">
+            <label class="info-label">Nombre:</label>
+            <input type="text">
+        </div>
+
+        <div class="input-info">
+            <label class="info-label">Apellido:</label>
+            <input type="text">
+        </div>
+
+        <div class="input-info">
+            <label class="info-label">Telefono:</label>
+            <input type="text">
+        </div>
+
+        <div class="input-info">
+            <label class="info-label">Correo:</label>
+            <input type="">
+        </div>
+
+    </form>
+    
+</body>
+</html>

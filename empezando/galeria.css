@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    /* box-shadow: 10px 10px 5px burlywood; */
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-galaxia-acuarela-pintada-mano_52683-63443.jpg?w=2000);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+img{
+    width: 20%;
+    box-shadow: 10px 10px 5px #81d4fa;
+    border: 10px  solid powderblue;
+    border-radius: 15px ;
+    margin:10px
+}
+.row{
+    display:flex;
+    padding: 5px;
+    /* flex-wrap: wrap;  este viene como none pero descuida son pocos elementos 
+    no funcionara */
+
+}
+.column{
+    flex: 25%;
+    padding:5px ;
+}
+.column img{
+    margin-top: 5px;
+}
+h1{
+   color: white;
+}
+nav a{
+    padding: 20px;
+    flex-direction: ce ;
+    text-decoration: none;
+    color: azure;
+    
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    background-color: aquamarine;
+}
+/* @media(max-width:600px) {
+    .column{
+        flex: 100%;
+        padding:5px ;
+    }
+    
+/* si tuviera mas elementos eso sirviera para colocarlos en fila pero no pasa aqui } */ 
